@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery - Prime Prints & Photophynix</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery - Prime Studio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="navbar">
-    <div class="logo">📸 Prime Prints & Photophynix</div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="gallery.html" class="active">Gallery</a>
-      <a href="booking.html">Booking</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+<header>
+  <nav>
+    <div class="logo">
+      <img src="logo.png" alt="Prime Studio Logo">
+      <h1>Prime Studio</h1>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button id="theme-toggle">🌙</button>
+  </nav>
+</header>
 
-  <section class="page-header">
-    <h1>Our Gallery</h1>
-  </section>
+<section class="gallery">
+  <h2>Our Gallery</h2>
+  <div class="gallery-grid">
+    <img src="photo1.jpg" alt="Gallery Image 1">
+    <img src="photo2.jpg" alt="Gallery Image 2">
+    <img src="photo3.jpg" alt="Gallery Image 3">
+    <img src="photo4.jpg" alt="Gallery Image 4">
+  </div>
+</section>
 
-  <section class="gallery fade-in">
-    <img src="https://i.imgur.com/qqiJXKp.jpg" alt="Photo 1">
-    <img src="https://i.imgur.com/5YlOe8v.jpg" alt="Photo 2">
-    <img src="https://i.imgur.com/Ij7Nzkj.jpg" alt="Photo 3">
-    <img src="https://i.imgur.com/7lmUo4U.jpg" alt="Photo 4">
-    <img src="https://i.imgur.com/9bnlD3Q.jpg" alt="Photo 5">
-    <img src="https://i.imgur.com/3t3m2eX.jpg" alt="Photo 6">
-  </section>
+<footer>
+  <p>© 2025 Prime Studio | Printing & Photography</p>
+</footer>
 
-  <footer>
-    <p>© 2025 Prime Prints & Photophynix | Designed by Prime Team</p>
-  </footer>
+<script src="theme.js"></script>
 </body>
 </html>
